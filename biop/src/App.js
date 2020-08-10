@@ -1,13 +1,15 @@
 import React from 'react';
 import Navbars from "./Navbars";
-import Middle from "./Middle";
+import UpperMiddle from "./UpperMiddle";
+import LowerMiddle from "./LowerMiddle";
 
 function App() {
   return (
     <div>
       <Navbars />
-      <Middle />
-
+      <UpperMiddle />
+      <LowerMiddle />
+      
     </div>
   )
 }

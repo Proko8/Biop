@@ -1,23 +1,16 @@
 import React from "react";
-import "./Navbars.css"
+import "./Navbars.css";
 
 function Navbars() {
   return (
     <div className="navbar">
-      <div className="facebook">
-        <input
-          type="button"
-          onclick="location.href='https://facebook.com';"
-          value="Facebook"
-        />
-      </div>
-      <div className="google">
-        <input
-          type="button"
-          onclick="location.href='https://google.com';"
-          value="Google"
-        />
-      </div>
+      <form action="https://www.google.com/">
+        <button type="submit">Google</button>
+      </form>
+
+      <form action="https://facebook.com">
+        <button type="submit">Facebook</button>
+      </form>
     </div>
   );
 }
