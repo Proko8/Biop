@@ -1,9 +1,10 @@
 import React from 'react'
+import "./Color.css"
 
 const red = '	#FF0000';
 const blue = '#0000FF';
 
-class LowerMiddle extends React.Component {
+class Color extends React.Component {
   constructor(props) {
     super(props);
     this.state = { color: red };
@@ -26,4 +27,4 @@ class LowerMiddle extends React.Component {
     );
   }
 }
-export default LowerMiddle
+export default Color

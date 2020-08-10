@@ -1,18 +1,18 @@
 import React from 'react';
 import Navbars from "./Navbars";
-import UpperMiddle from "./UpperMiddle";
-import LowerMiddle from "./LowerMiddle";
-import Bottom from "./Bottom";
+import Counter from "./Counter";
+import Color from "./Color";
+import Calendar from "./Calendar";
 import Time from "./Time"
 
 function App() {
   return (
     <div className="app">
       <Navbars />
-      <UpperMiddle />
-      <LowerMiddle />
+      <Counter />
+      <Color />
       <div className="bottom">
-      <Bottom />
+      <Calendar />
       <Time />
       </div>
     </div>

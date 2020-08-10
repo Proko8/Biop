@@ -2,7 +2,7 @@ import React from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 
-export default class Bottom extends React.Component {
+ class Calendar extends React.Component {
   render() {
     return (
       <div className="calendar">
@@ -11,3 +11,4 @@ export default class Bottom extends React.Component {
     );
   }
 }
+export default Calendar;

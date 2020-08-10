@@ -1,12 +1,11 @@
 import React from "react";
-import "./UpperMiddle.css";
+import "./Counter.css";
 import pic from "./pic.jpg";
-import ReactDOM from "react-dom";
 
 const green = '#39D1B4';
 const yellow = '#FFD712';
 
-class UpperMiddle extends React.Component {
+class Counter extends React.Component {
   state = {
     count: 0,
     color: 0,
@@ -32,4 +31,4 @@ class UpperMiddle extends React.Component {
   }
 }
 
-export default UpperMiddle;
+export default Counter;
