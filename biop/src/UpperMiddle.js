@@ -17,18 +17,6 @@ class UpperMiddle extends React.Component {
     const count = this.state.count;
     this.setState({ count: count + 1 });
   };
-//   handleClickColor = (e) => {
-//     const color = this.state.color;
-//     if(this.state.color === 0){
-//     this.setState({ color: color + 1 });
-    // }else{
-    //     this.setState({color: color - 1})
-    // }
-
-//     if(this.state.color === 0){
-
-//     }
-//   };
 
   render() {
     return (
@@ -38,11 +26,6 @@ class UpperMiddle extends React.Component {
         <button className="block" onClick={this.handleClick}></button>
 
         <div className="counter">{this.state.count}</div>
-{/* 
-        <button className="block2" onClick={this.handleClickColor}></button>
-
-        <div className="color0">{this.state.color}</div>
-        <div className="color1">{this.state.color}</div> */}
 
       </div>
     );
@@ -50,6 +33,3 @@ class UpperMiddle extends React.Component {
 }
 
 export default UpperMiddle;
-
-/*<div className="middle">
-      <img className="image" src={pic} alt="" /> */
