@@ -2,6 +2,8 @@ import React from 'react';
 import Navbars from "./Navbars";
 import UpperMiddle from "./UpperMiddle";
 import LowerMiddle from "./LowerMiddle";
+import Bottom from "./Bottom";
+import Calendar from 'react-calendar'
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <Navbars />
       <UpperMiddle />
       <LowerMiddle />
-      
+      <Bottom />
     </div>
   )
 }

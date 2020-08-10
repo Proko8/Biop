@@ -18,12 +18,9 @@ class LowerMiddle extends React.Component {
   
   render() {
     return (
-      <div style={{background: this.state.color}}>
-        <h1>
-          Toggle color
-        </h1>
+      <div className="colors" style={{background: this.state.color}}>
         <button onClick={this.changeColor}>
-          Change color
+          Toggle color
         </button>
       </div>
     );
